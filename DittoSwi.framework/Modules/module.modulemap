@@ -1,0 +1,11 @@
+framework module DittoSwi {
+  umbrella header "DittoSwi.h"
+
+  export *
+  module * { export * }
+}
+
+module DittoSwi.Swift {
+    header "DittoSwi-Swift.h"
+    requires objc
+}
